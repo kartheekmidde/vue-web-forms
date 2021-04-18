@@ -15,10 +15,21 @@ npm run serve
 npm run build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
+## Code related:
 ### 2 way data binding directive
 ```
 v-model
+```
+### Check box binding - 2 ways
+```
+v-model - boolean
+v-model with value - array
+```
+### V-for to be followed with v-bind:key for identifying unique value
+```
+:key="uniqValue"
+```
+### To capture keyboard activities
+```
+@keyup.alt = ''
 ```
